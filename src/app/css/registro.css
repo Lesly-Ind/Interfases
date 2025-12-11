@@ -1,0 +1,88 @@
+/* FONDO */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C79A4A; /* color dorado */
+    font-family: Arial, sans-serif;
+}
+
+/* LOGO SUPERIOR */
+.logo-top {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.logo-top img {
+    width: 110px;
+    height: auto;
+}
+
+/* LOGO CENTRAL */
+.logo-center {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.logo-center img {
+    width: 350px;
+    height: auto;
+}
+
+/* TÍTULO */
+.titulo {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 60px;
+    color: #000;
+    font-family: "Cinzel", serif; /* Se parece al estilo */
+}
+
+/* CONTENEDOR FORMULARIO */
+.formulario {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+/* LABEL */
+.formulario label {
+    font-size: 22px;
+    color: #e0e0e0;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* INPUT */
+.formulario input {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+/* TEXTO DE TÉRMINOS */
+.terminos {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000;
+    line-height: 1.4;
+}
+
+/* BOTÓN */
+.btn {
+    display: block;
+    background-color: #ffffff;
+    border: none;
+    padding: 20px 0;
+    font-size: 26px;
+    font-weight: bold;
+    width: 330px;
+    margin: 40px auto;
+    border-radius: 40px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    background: #c89d4f;
+}
+
+/* HEADER ARRIBA */
+.header-global {
+    width: 100%;
+    background: #c89d4f;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.header-icon {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* NAV ABAJO */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 2px solid #ccc;
+}
+
+.bottom-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bottom-nav a p {
+    margin: 0;
+}
+
+/* SECCIÓN TÍTULOS */
+.section-title {
+    padding: 30px 20px 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 45%;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-cart {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+/* MENÚ SUPERIOR IMÁGENES */
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    grid-gap: 25px;
+}
+
+.menu-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
